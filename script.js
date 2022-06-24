@@ -1,6 +1,6 @@
 var hms=document.getElementById("h_m_s");
 
-function displaytime(){
+setInterval(function(){
 	var date= new Date();
 
 	let h=date.getHours();
@@ -22,10 +22,4 @@ function displaytime(){
 		s="0" + s;
 
 		hms.innerHTML = h+":"+m+":"+s+" "+am_pm;
-
-		setTimeout(function(){displaytime()},1000);	
-}
-
-
-
-displaytime();
+},1000);
