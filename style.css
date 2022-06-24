@@ -1,0 +1,29 @@
+body{
+	background-color: #5CDB95;
+	text-align: center;
+	font-size: 100px;
+	color: #05386B;
+	font-weight: bold;
+}
+
+#heading{
+	margin-top: 15px;
+}
+#h_m_s{
+	border-style: solid;
+	border-radius: 20px;
+	width: auto;
+	display: inline-block;
+	padding: 20px;
+	color: whitesmoke;
+}
+
+.heart
+{
+  content: url('https://api.iconify.design/codicon/heart-filled.svg?color=white&height=30');
+}
+
+#footer{
+	font-size: 40px;
+	margin-top: 130px;
+}
